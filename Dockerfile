@@ -1,4 +1,4 @@
-FROM node:12-slim
+FROM public.ecr.aws/aws-containers/ecsdemo-nodejs:latest
 
 # Create app directory
 WORKDIR /usr/src/app
