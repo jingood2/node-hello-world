@@ -10,5 +10,9 @@ app.get('/', (req, res) => {
   res.send('Hello World from IBM Cloud Essentials!');
 })
 
+app.get('/health', (req, res) => {
+  res.send(200);
+})
+
 app.listen(port, host);
 console.log(`Running on http://${host}:${port}`);
