@@ -1,4 +1,4 @@
-FROM public.ecr.aws/aws-containers/ecsdemo-nodejs:latest
+FROM public.ecr.aws/e4e1h9a9/nodejs:latest
 
 # Create app directory
 WORKDIR /usr/src/app
