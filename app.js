@@ -11,6 +11,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/health', (req, res) => {
+  console.log('200 OK');
   res.send(200);
 })
 
